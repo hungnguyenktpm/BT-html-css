@@ -1,0 +1,35 @@
+/* Style cho cả trang web độ rông bài viết 750px và lề 0px auto  */
+#wrapper {
+    width: 750px;
+    margin: 0px auto;
+}
+
+/* ========================== HEADER ======================= */
+/* Style background cho thẻ h1  */
+.background-blue {
+    background: #33CCCC;
+}
+/* Style  backgground cho h1 khi di chupptj vào sẽ đổi màu*/
+.background-blue:hover {
+    background: #999999;
+}
+
+/* ============================= CONTENT ====================== */
+/* Style cho tất cả thẻ h2 trừ thẻ h2 có class="text-green"  */
+h2:not(.text-green) {
+    color: #FF9900;
+}
+
+/* Style cho tất cả thẻ h2 có class="text-green"  */
+h2.text-green {
+    color: #99CC33;
+}
+
+/* Style cho thẻ a có tên miền .com/ */
+a[href$=".com/"] {
+    color: red;
+}
+
+input:checked+label {
+    color: red;
+}
